@@ -1,0 +1,39 @@
+{
+  "name": "memory-game-ap",
+  "version": "1.0.0",
+  "description": "A fun way to learn GitHub Copilot",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "test": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
+    "eject": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

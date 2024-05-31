@@ -1,0 +1,16 @@
+.card {
+  border: 1px solid #000;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
+  padding: 1rem;
+  text-align: center;
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+  width: 100px; /* Fixed width */
+  height: 150px; /* Fixed height */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-size: 1.2rem; /* Larger text */
+  margin: 1rem; /* Space around each card */
+}
