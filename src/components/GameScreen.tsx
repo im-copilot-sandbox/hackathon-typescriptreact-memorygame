@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/Playfield.css';
+import '../styles/GameScreen.css';
 import Card from './Card'; // import the Card component
 
 /*
-    This is the Playfield component that will be displayed when the game is in progress.
+    This is the GameScreen component that will be displayed when the game is in progress.
     It will display the grid of cards and a button to end the game.
     Optionally, we can add a timer, a score, and other game-related information here.
     We need to keep track of the state of each card, the number of cards, and the type of cards
@@ -19,11 +19,11 @@ interface Props {
   onEndGame: () => void; // Prop function to end the game
 }
 
-const Playfield: React.FC<Props> = ({ x, y, onEndGame }) => {
+const GameScreen: React.FC<Props> = ({ x, y, onEndGame }) => {
   const cards = Array.from({ length: x * y }, (_, i) => i + 1);
 
   return (
-    <div className="playfield" style={{ gridTemplateColumns: `repeat(${x}, 1fr)` }}>
+    <div className="gamescreen" style={{ gridTemplateColumns: `repeat(${x}, 1fr)` }}>
       {cards.map((card) => (
         <Card key={card} cardNumber={card} />
       ))}
@@ -32,4 +32,4 @@ const Playfield: React.FC<Props> = ({ x, y, onEndGame }) => {
   );
 };
 
-export default Playfield;
+export default GameScreen;
