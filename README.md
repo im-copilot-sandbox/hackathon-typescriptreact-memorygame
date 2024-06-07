@@ -71,13 +71,17 @@ git clone https://github.com/im-copilot-sandbox/hackathon-typescriptreact-memory
 cd hackathon-typescriptreact-memorygame
 ```
 
-3. Install NPM packages:
+3. Open the project in Visual Studio Code
 
-```
-npm install
+```bash
+code .
 ```
 
-4. Start the server:
+4. Reopen the project in the DevContainer
+
+![Open DevContainer](.devcontainer/screenshot.png)
+
+5. Start the server:
 
 ```
 npm start
